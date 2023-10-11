@@ -130,17 +130,37 @@ Successful output will show the following:
 
 ```bash
 +-------------+-----------+---------------------------------------+
-| NODE TYPE   | NODE ID   | ADDITIONAL INFORMATION                |
+| NODE TYPE   | NODE ID # | ADDITIONAL INFORMATION                |
 +-------------+-----------+---------------------------------------+
-| certifyVuln | 138477    | vulnerability ID: ghsa-599f-7c49-w659 |
-| certifyVuln | 138449    | vulnerability ID: ghsa-7rjr-3q55-vv33 |
-| certifyVuln | 138451    | vulnerability ID: ghsa-8489-44mv-ggj8 |
-| certifyVuln | 138453    | vulnerability ID: ghsa-fxph-q3j8-mv87 |
-| certifyVuln | 138455    | vulnerability ID: ghsa-jfh8-c2jp-5v3q |
-| certifyVuln | 138457    | vulnerability ID: ghsa-p6xc-xr62-6r2g |
-| certifyVuln | 138459    | vulnerability ID: ghsa-vwqq-5vrc-xw9h |
+| certifyVuln | 21306     | vulnerability ID: ghsa-7rjr-3q55-vv33 |
+| certifyVuln | 21307     | vulnerability ID: ghsa-8489-44mv-ggj8 |
+| certifyVuln | 21308     | vulnerability ID: ghsa-fxph-q3j8-mv87 |
+| certifyVuln | 21309     | vulnerability ID: ghsa-jfh8-c2jp-5v3q |
+| certifyVuln | 21310     | vulnerability ID: ghsa-p6xc-xr62-6r2g |
+| certifyVuln | 21311     | vulnerability ID: ghsa-vwqq-5vrc-xw9h |
+| certifyVuln | 21318     | vulnerability ID: ghsa-599f-7c49-w659 |
+| certifyVuln | 21236     | vulnerability ID: dsa-5343-1          |
+| certifyVuln | 21237     | vulnerability ID: dsa-5417-1          |
+| certifyVuln | 21306     | vulnerability ID: ghsa-7rjr-3q55-vv33 |
+| certifyVuln | 21307     | vulnerability ID: ghsa-8489-44mv-ggj8 |
+| certifyVuln | 21308     | vulnerability ID: ghsa-fxph-q3j8-mv87 |
+| certifyVuln | 21309     | vulnerability ID: ghsa-jfh8-c2jp-5v3q |
+| certifyVuln | 21310     | vulnerability ID: ghsa-p6xc-xr62-6r2g |
+| certifyVuln | 21311     | vulnerability ID: ghsa-vwqq-5vrc-xw9h |
+| certifyVuln | 21318     | vulnerability ID: ghsa-599f-7c49-w659 |
+| certifyVuln | 21236     | vulnerability ID: dsa-5343-1          |
+| certifyVuln | 21237     | vulnerability ID: dsa-5417-1          |
+| certifyVuln | 21306     | vulnerability ID: ghsa-7rjr-3q55-vv33 |
+| certifyVuln | 21307     | vulnerability ID: ghsa-8489-44mv-ggj8 |
+| certifyVuln | 21308     | vulnerability ID: ghsa-fxph-q3j8-mv87 |
+| certifyVuln | 21309     | vulnerability ID: ghsa-jfh8-c2jp-5v3q |
+| certifyVuln | 21310     | vulnerability ID: ghsa-p6xc-xr62-6r2g |
+| certifyVuln | 21311     | vulnerability ID: ghsa-vwqq-5vrc-xw9h |
+| certifyVuln | 21318     | vulnerability ID: ghsa-599f-7c49-w659 |
+| certifyVuln | 21236     | vulnerability ID: dsa-5343-1          |
+| certifyVuln | 21237     | vulnerability ID: dsa-5417-1          |
 +-------------+-----------+---------------------------------------+
-Visualizer url: http://localhost:3000/?path=15337,15336,15335,2,15432,15431,15430,15340,2509,138477,138478,15574,15573,15572,15515,138449,138450,138451,138452,138453,138454,138455,138456,138457,138458,138459,138460
+Visualizer url: http://localhost:3000/?path=195,194,193,1,10932,7304,7303,865,133,21191,21306,21200,21307,21181,21308,21182,21309,21183,21310,21196,21311,10949,6818,6817,5408,21184,21318,11004,3194,3193,34,33,21190,21236,21199,21237
 ```
 
 From the output, you can see that there are vulnerabilities associated with the
