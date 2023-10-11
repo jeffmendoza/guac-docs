@@ -556,7 +556,7 @@ The query:
 
 ```bash
 CertifyVuln(
-  certifyVulnSpec: {vulnerability: {osv: {osvId: "ghsa-cg3q-j54f-5p7p"}}}
+  certifyVulnSpec: {vulnerability: {type: "osv", vulnerabilityID: "ghsa-cg3q-j54f-5p7p"}}
 )
 ```
 
@@ -570,21 +570,21 @@ This will output the following:
   "data": {
     "CertifyVuln": [
       {
-        "id": "9699",
+        "id": "13893",
         "package": {
-          "id": "6",
+          "id": "19",
           "type": "golang",
           "namespaces": [
             {
-              "id": "191",
+              "id": "264",
               "namespace": "github.com/prometheus",
               "names": [
                 {
-                  "id": "192",
+                  "id": "265",
                   "name": "client_golang",
                   "versions": [
                     {
-                      "id": "7623",
+                      "id": "7985",
                       "version": "v1.4.0",
                       "qualifiers": [],
                       "subpath": ""
@@ -596,57 +596,21 @@ This will output the following:
           ]
         },
         "vulnerability": {
-          "__typename": "OSV",
-          "id": "9698",
-          "osvId": "ghsa-cg3q-j54f-5p7p"
-        },
-        "metadata": {
-          "dbUri": "",
-          "dbVersion": "",
-          "scannerUri": "osv.dev",
-          "scannerVersion": "0.0.14",
-          "timeScanned": "2023-04-20T12:41:38.272364Z",
-          "origin": "guac",
-          "collector": "guac"
-        }
-      },
-      {
-        "id": "14527",
-        "package": {
-          "id": "6",
-          "type": "golang",
-          "namespaces": [
+          "id": "12920",
+          "type": "osv",
+          "vulnerabilityIDs": [
             {
-              "id": "191",
-              "namespace": "github.com/prometheus",
-              "names": [
-                {
-                  "id": "192",
-                  "name": "client_golang",
-                  "versions": [
-                    {
-                      "id": "14106",
-                      "version": "v1.7.1",
-                      "qualifiers": [],
-                      "subpath": ""
-                    }
-                  ]
-                }
-              ]
+              "id": "13007",
+              "vulnerabilityID": "ghsa-cg3q-j54f-5p7p"
             }
           ]
         },
-        "vulnerability": {
-          "__typename": "OSV",
-          "id": "9698",
-          "osvId": "ghsa-cg3q-j54f-5p7p"
-        },
         "metadata": {
           "dbUri": "",
           "dbVersion": "",
           "scannerUri": "osv.dev",
           "scannerVersion": "0.0.14",
-          "timeScanned": "2023-04-20T12:46:46.985135Z",
+          "timeScanned": "2023-10-11T15:12:03.358140027-07:00",
           "origin": "guac",
           "collector": "guac"
         }
